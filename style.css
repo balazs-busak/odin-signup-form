@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.cover-side,
+.content {
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.reg-form,
+.confirm {
+    border: 2px solid black;
+}
