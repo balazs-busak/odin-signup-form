@@ -39,7 +39,6 @@ body {
     align-items:  center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .logo-background {
@@ -56,18 +55,44 @@ h2 {
     font-family: 'myfont';
     font-size: 48px;
     letter-spacing: 0.5em;
+    text-shadow: 8px 8px 16px #000000;
 }
 
 .header {
-    background-color: antiquewhite;
+    background-color: whitesmoke;
 }
 
 .reg-form {
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 
+}
+
+.inputform {
+    display: block;
+    column-count: 2
+}
+
+input,
+label {
+    display: block;
 }
 
 .confirm {
-    background-color: antiquewhite;
-    
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+input[type=text]:focus {
+    border: 3px solid #555;
+    background-color: lightblue;
+  }
+  input[type=email]:focus {
+    border: 3px solid #555;
+    background-color: lightblue;
+  }
+  input[type=password]:focus {
+    border: 3px solid #555;
+    background-color: lightblue;
+  }
