@@ -49,6 +49,10 @@ body {
     align-items: center;
 }
 
+.logo {
+    width: 6em;
+}
+
 h1,
 h2 {
     color: white;
@@ -71,28 +75,17 @@ h2 {
 
 .inputform {
     display: block;
-    column-count: 2
+    column-count: 2;
 }
 
 input,
 label {
     display: block;
+    color: gray;
+    
 }
 
 .confirm {
     background-color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-input[type=text]:focus {
-    border: 3px solid #555;
-    background-color: lightblue;
-  }
-  input[type=email]:focus {
-    border: 3px solid #555;
-    background-color: lightblue;
-  }
-  input[type=password]:focus {
-    border: 3px solid #555;
-    background-color: lightblue;
-  }
