@@ -81,11 +81,34 @@ h2 {
 input,
 label {
     display: block;
-    color: gray;
-    
+}
+
+input:focus {
+    background-color: azure;
+    outline: none;
+    box-shadow: 0 0 0 2px blue;
+    border-color: transparent;
 }
 
 .confirm {
     background-color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button {
+    background: none;
+    border: none;
+    border-radius: 8px;
+    padding : 17px 30px 17px 30px;
+    font-size: 1em;
+    background-color: #665df5;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: -5px;
+    transition: background-color .2s ease-in;
+}
+
+button:hover {
+    background-color: #544af4;
 }
