@@ -112,3 +112,8 @@ button {
 button:hover {
     background-color: #544af4;
 }
+
+input[type=email]:not(:placeholder-shown):invalid {
+    color: red;
+    outline-color: red;
+  }
