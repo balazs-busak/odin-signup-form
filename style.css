@@ -73,6 +73,11 @@ h2 {
 
 }
 
+.confirm {
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .inputfields {
     display: block;
     column-count: 2;
@@ -90,10 +95,11 @@ input:focus {
     border-color: transparent;
 }
 
-.confirm {
-    background-color: whitesmoke;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+input[type=email]:not(:placeholder-shown):invalid {
+    color: red;
+    outline-color: red;
+  }
+  
 
 button {
     background: none;
@@ -118,8 +124,3 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
-input[type=email]:not(:placeholder-shown):invalid {
-    color: red;
-    outline-color: red;
-  }
-  
