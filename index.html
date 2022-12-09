@@ -24,7 +24,8 @@
             <div class="reg-form">
               <h3>Let's do this!</h3>
                 <form class="inputform" action="">
-                    <div class="input">
+                    <div class="inputfields">
+                      <div class="input">
                         <label for="first_name">First Name:</label>
                         <input type="text" name="first_name" id="first_name">
                       </div>
@@ -32,9 +33,9 @@
                         <label for="user_email">Email Address:</label>
                         <input type="email" id="user_email" name="email" placeholder="you@example.com">
                       </div>
-                      <div class="input-password">
+                      <div class="input">
                         <label for="user_password">Password:</label>
-                        <input required type="password" autocomplete="new-password" id="new-password" …>
+                        <input name="password" type="password" onChange="onChange()" /> </label><br />
                       </div>
                       <div class="input">
                         <label for="last_name">Last Name:</label>
@@ -44,14 +45,17 @@
                         <label for="phone">Phone Number:</label>
                         <input type="tel" name="phone" id="phone">
                       </div>
-                      <div class="input-password">
+                      <div class="input">
                         <label for="user_password">Confirm Password:</label>
-                        <input required type="password" autocomplete="new-password" id="new-password" …>
+                        <input name="confirm-password" type="password" onChange="onChange()" /> </label><br />
                       </div>
+                    </div>
+                    <div class="submitbtn">
+                      <button type="submit">Create Account</button>
+                    </div>
                 </form>
             </div>
             <div class="confirm">
-              <button type="submit">Create Account</button>
               <p>Already have an account? <a href="">Log in</a></p>
             </div>
         </div>

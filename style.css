@@ -73,7 +73,7 @@ h2 {
 
 }
 
-.inputform {
+.inputfields {
     display: block;
     column-count: 2;
 }
@@ -113,7 +113,13 @@ button:hover {
     background-color: #544af4;
 }
 
+.submitbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 input[type=email]:not(:placeholder-shown):invalid {
     color: red;
     outline-color: red;
   }
+  
